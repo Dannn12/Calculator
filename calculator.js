@@ -1,32 +1,75 @@
 "use strict";
 
-const counter = document.getElementById("Calc");
+const Calc = document.getElementById("Calc");
+
+let savedValue = 0;
+
+const Reset = () =>
+    counter.value=""
+    savedValue;
+}
 
 const One = () => {
-    counter.value =(1)
+    Calc.value =(1)
+
 }
 
 const Two = () => {
-    counter.value =(2)
+    Calc.value =(2)
+
+    
 }
 const Three = () => {
-    counter.value =(3)
+    Calc.value =(3)
+
+   
 }
 const Four = () => {
-    counter.value =(4)
+    Calc.value =(4)
+
+    
 }
 const Five = () => {
-    counter.value =(5)
+    Calc.value =(5)
+
+    
 }
 const Six = () => {
-    counter.value =(6)
+    Calc.value =(6)
+
+    
 }
 const Seven = () => {
-    counter.value =(7)
+    Calc.value =(7)
+
+    
 }
 const Eight = () => {
-    counter.value =(8)
+    Calc.value =(8)
+
+   
 }
 const Nine = () => {
-    counter.value =(9)
+    Calc.value =(9)
+
+}
+
+const Subtract = () => {
+    counter.value = 
+    x - y; 
+}
+
+let add = {
+    savedValue = parse(Calc.value) + 
+    parseInt (savedValue); 
+    console.log(calculator.value,"saved value");
+}
+}
+
+const Multiply = () => {
+    Calc.value = x * y;
+}
+
+const Divide = () => {
+    Calc.value = x / y;
 }
